@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 30px;
+}
+.HNCC{
+    color: rgba(17, 223, 62, 0.897);
+}
+section{
+    display: flex;
+}
+.change{
+    width: 50%;
+    padding: 5%;
+}
+.change img{
+    width: 30%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato ,orange);
+    padding: 10px ;
+    border-radius: 10px;
+    
+}
+#first{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
