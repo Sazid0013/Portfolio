@@ -8,9 +8,6 @@ h1{
 .HNCC{
     color: rgba(17, 223, 62, 0.897);
 }
-section{
-    display: flex;
-    margin: 100px;
 }
 .change{
     width: 50%;
@@ -29,9 +26,24 @@ section{
 #first{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin: 100px;
 }
 #second{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    margin: 100px;
 }
+.experience{
+    margin: 100px;
+}
+ .new{
+    display: flex;
+    margin: 100px;
+    padding: 5px;
+ }
+ .kkr{
+    margin: 100px;
+ }
