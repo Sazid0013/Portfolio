@@ -1,13 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    text-align: justify;
 }
 h1{
     font-size: 30px;
 }
-.HNCC{
-    color: rgba(17, 223, 62, 0.897);
+h3{
+    font-size: 25px;
 }
+.HNCC{
+    color: rgb(183, 212, 19);
 }
 .change{
     width: 50%;
@@ -36,6 +39,11 @@ h1{
     display: flex;
     margin: 100px;
 }
+#third{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experience{
     margin: 100px;
 }
@@ -45,5 +53,25 @@ h1{
     padding: 5px;
  }
  .kkr{
-    margin: 100px;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5% ;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray ;
+ }
+ .kks{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+    border-radius: 5px;
+ }
+ .kkt{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+ }
+ footer{
+     text-align: center;
  }
